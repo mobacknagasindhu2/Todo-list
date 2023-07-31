@@ -9,7 +9,7 @@ export default function App() {
   const [modalIsVisible, setModalIsVisible] = useState(false);
   const [courseGoals, setCourseGoals] = useState([]);
 
-  function startAddGoalHandler() {
+  //function startAddGoalHandler() { 
     setModalIsVisible(true);
   }
 
